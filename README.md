@@ -5,20 +5,23 @@ Classification of Cancer Tumours into Benign And Malignant Using Artificial Neur
 Introduction:
 
 1.This project focuses on the use of Artificial Neural Networks to classify a tumour as Benign or Malignant
+
 2.The project also focuses on getting maximum accuracy by using the concept of dropping layers and earlystoping.
 3.Used modern day optimisers(adam) and activation functions(relu and sigmoid).
 
 Contents:
 
 1.Using a csv file which contents the data regarding the dimensions and type of the tumour, I have designed a neural networks model to predict whether the a random tumour is malignant or benign.
+
 2. The csv file contains the target variable which contains the predefined results.
-3. We will split our training data in to train test split using sklearn library and calculate our models accuracy using the confusion matrix and classification report
-4. The accuracy comes out to be above 90% so we can test our model on a random dataset.
-5. I have used the inbuilt model of Artificial neural networks that comes with the tensorflow library.
-6. As tensorflow has adopted keras as its API, we can import different functions using tensorflow that will help us prepare our neural networks model.
-7. Now we will use some improvements in our model to get the best accuracy out of our model.
-8. These improvements include Dropout layers and Earlystopping.
-9. Dropout layers basically decreases the number of active neurons at each stage.
+  
+4. We will split our training data in to train test split using sklearn library and calculate our models accuracy using the confusion matrix and classification report
+5. The accuracy comes out to be above 90% so we can test our model on a random dataset.
+6. I have used the inbuilt model of Artificial neural networks that comes with the tensorflow library.
+7. As tensorflow has adopted keras as its API, we can import different functions using tensorflow that will help us prepare our neural networks model.
+8. Now we will use some improvements in our model to get the best accuracy out of our model.
+9. These improvements include Dropout layers and Earlystopping.
+10. Dropout layers basically decreases the number of active neurons at each stage.
 
 
 Observation:
