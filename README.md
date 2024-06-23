@@ -3,11 +3,13 @@ Classification of Cancer Tumours into Benign And Malignant Using Artificial Neur
 
 
 Introduction:
+
 1.This project focuses on the use of Artificial Neural Networks to classify a tumour as Benign or Malignant
 2.The project also focuses on getting maximum accuracy by using the concept of dropping layers and earlystoping.
 3.Used modern day optimisers(adam) and activation functions(relu and sigmoid).
 
 Contents:
+
 1.Using a csv file which contents the data regarding the dimensions and type of the tumour, I have designed a neural networks model to predict whether the a random tumour is malignant or benign.
 2. The csv file contains the target variable which contains the predefined results.
 3. We will split our training data in to train test split using sklearn library and calculate our models accuracy using the confusion matrix and classification report
